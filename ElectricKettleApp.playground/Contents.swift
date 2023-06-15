@@ -1,5 +1,6 @@
 import UIKit
 
+
 class Kettle1 {
     var product: String = "ケトル１"
     
@@ -18,7 +19,7 @@ class Kettle1 {
 let dp = Kettle1 ()
 print("\(dp.product)\n")
 // ケトルに水が入っているとき
-dp.check(water: 700)
+dp.check(water: 300)
 // ケトルに水が入っていないとき
 dp.check(water: 0)
 
@@ -42,5 +43,5 @@ print(kc.japan ?? "ケトル2")
 // ケトルに水が入っていないとき
 kc.waterCheck(storage: 0)
 // ケトルに水が入っているとき
-kc.waterCheck(storage: 700)
+kc.waterCheck(storage: 900)
 
